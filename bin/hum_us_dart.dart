@@ -62,38 +62,55 @@ void main()
 
 
   // Type inference
-  var fatherName =  "Ali";
-  print("My father name is $fatherName");
+  // var fatherName =  "Ali";
+  // print("My father name is $fatherName");
+  //
+  // var sscMarks = 789;
+  // print(sscMarks.runtimeType);
+  //
+  // dynamic value = "USA";
+  // value = 13;
+  // value = true;
+  // value = 3.3;
+  //
+  //
+  // // Optional value
+  // // swift language
+  // String? mangetarName;
+  // print(mangetarName);
+  //
+  // double? gpa;
+  // gpa = 3.3;
+  // print(gpa);
+  // // String interpolation
+  // print("My gpa is $gpa");
+  //
+  //
+  // // String
+  // String firstName = "Abid";
+  // String lastName = "Ali";
+  //
+  // String fName = "$firstName $lastName";
+  // print(fName);
 
-  var sscMarks = 789;
-  print(sscMarks.runtimeType);
 
-  dynamic value = "USA";
-  value = 13;
-  value = true;
-  value = 3.3;
+  // print( 5 + 7 );
+  // print( 5 - 7 );
+  // print( 5 * 7 );
+  //
+  // print( 20 / 7 );
+  // print( 20 ~/ 7); // floor
+  //
+  // print( 11 % 2 );
 
+  int n1, n2, result;
+  n1 = 7;
+  n2 = 5;
+  print( "Number one = $n1");
+  print( "Number two = $n2");
 
-  // Optional value
-  // swift language
-  String? mangetarName;
-  print(mangetarName);
-
-  double? gpa;
-  gpa = 3.3;
-  print(gpa);
-  // String interpolation
-  print("My gpa is $gpa");
-
-
-  // String
-  String firstName = "Abid";
-  String lastName = "Ali";
-
-  String fName = "$firstName $lastName";
-  print(fName);
-
-
+  result = n1 + n2;
+  print("Sum = $result");
 }
 
 
