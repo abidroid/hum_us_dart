@@ -1,0 +1,78 @@
+
+Dart Programming
+Comments
+Ouput
+Variable and Datatypes
+Nullable types
+
+Arithmetic Operators
+Decission Making
+	if, if else, multiple, ladder, switch, ternary operator
+	Relational/Comparison operators
+
+Loops
+	for, while,do while
+
+Collections
+	List, Map, Set
+
+functions
+
+OOP
+	class, object, constructor, inheritance, polymorphism
+
+Exception Handling
+int
+double
+num
+String
+bool
+
+var ( it is not a datatype)
+	variable declaration syntax
+
+dynamic ( any type )
+
+Optional ( Nullable types )
+
+String? variableName;
+By default variableName will contain null as its value.
+null is the absence of value.
+
+Operator
+Symbol(s) that perform some operation on operands.
+
+5 + 7 ( expression => combinaiton of operator and operands )
+5, 7 are operands
++ operator
+
+Unary [ requires only one operand ]
+++, --
+inc, dec
+!
+
+Binary [ requires  two operands ]
+	Arithmetic operators ( +, -, *, /, ~/, % )
+	Relational operators ( >, >=, <, <=, ==, != )
+	Assignment operator ( =  )
+	Logical Operators ( &&, ||)
+
+Ternary [ requires  three operands ]
+?:
+
+User Input:
+
+how to convert a String into and int
+
+
+how to store a nullable value in a non nullable variable
+
+C++
+#include<iostream>
+cout, cin
+
+Dart
+import 'dart:io';
+
+stdout.write('enter your name');
+stdin.readLineSync();
