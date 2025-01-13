@@ -103,14 +103,39 @@ void main()
   //
   // print( 11 % 2 );
 
-  int n1, n2, result;
-  n1 = 7;
-  n2 = 5;
-  print( "Number one = $n1");
-  print( "Number two = $n2");
+  // int n1, n2, result;
+  // n1 = 7;
+  // n2 = 5;
+  // print( "Number one = $n1");
+  // print( "Number two = $n2");
+  //
+  // result = n1 + n2;
+  // print("Sum = $result");
 
-  result = n1 + n2;
-  print("Sum = $result");
+
+  String n1 = '5';
+  String n2 = '7';
+
+  print(n1+n2);
+
+  // how to convert a String to an int
+  // int.parse( String )
+
+  int num1 = int.parse(n1);
+  int num2 = int.parse(n2);
+
+  print(num1+num2);
+
+  // how to convert a String to a double value
+  String value1 = "8.3";
+  String value2 = "5.5";
+
+  print(value1 + value2);
+  print( double.parse(value1) + double.parse(value2) );
+
+
+
+
 }
 
 
