@@ -12,18 +12,21 @@ import 'dart:io';
 
 void main() {
 
-  String? name;
-  stdout.write("Enter your name: ");
-  name = stdin.readLineSync();
+  String num1, num2;
 
-  print('Welcome $name');
+  int n1, n2, result;
 
-  String country;
-  stdout.write("Enter your country: ");
-  country = stdin.readLineSync()!;
-  print('how is your country $country');
+  stdout.write('Enter first number : ');
+  num1 = stdin.readLineSync()!;
 
+  stdout.write('Enter second number : ');
+  num2 = stdin.readLineSync()!;
 
+  n1 = int.parse(num1);
+  n2 = int.parse(num2);
+
+  result = n1 + n2;
+  print(result);
 }
 
 
