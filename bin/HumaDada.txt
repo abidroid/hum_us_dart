@@ -101,12 +101,68 @@ Assignment 3:
 User will input temperature in Fahrenheit and you convert it to Centigrade.
 
 Assignment 4:
-a = 10
-b = 5
+Perform swapping without using third variable.
 
-a = 5
-b = 10
 
+DMC
+Detailed Marks Certificate
+
+Enter the marks of 5 subjects.
+Total marks = 500
+
+calculate
+obtainedMarks
+Percentage = obtainedMarks / totalMarks * 100
+
+
+Relational Operators
+Binary Operators
+>
+>=
+<
+<=
+==
+!=
+
+7 > 5 => boolean expression
+result ( true ya false )
+
+Decision Making
+if
+if else
+multiple if
+if else if ... else ladder
+switch
+conditional operator
+
+if statement
+it will execute or skip a block of code depending on a condition.
+when the condition is true the block will execute.
+
+if( condition )
+{
+    // lin1
+    // lin2
+    // lin3
+}
+
+
+if else
+
+if( condition )
+{
+    block A
+}
+else
+{
+    block B
+}
+
+Assignment 5:
+User will enter a number and program will tell whether it is even or odd.
+
+Assignment 6:
+User will enter a number and program will tell whether its positive or negative.
 
 
 

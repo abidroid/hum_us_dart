@@ -12,30 +12,27 @@ import 'dart:io';
 
 void main() {
 
-  String num1, num2;
+  String number;
+  int num;
 
-  int n1, n2, temp;
+  stdout.write("Enter a number less than ten : ");
+  number = stdin.readLineSync()!;
+  num = int.parse( number );
 
-  stdout.write('Enter first number : ');
-  num1 = stdin.readLineSync()!;
+  if( num < 10 )
+  {
+    print('Shaabaash');
+    print('Good');
+    print('Excellent');
+  }
+  else
+  {
+    print('Very Bad');
+    print('Bad');
+    print('Poor');
+  }
 
-  stdout.write('Enter second number : ');
-  num2 = stdin.readLineSync()!;
-
-  n1 = int.parse(num1);
-  n2 = int.parse(num2);
-
-  print('Before Swapping');
-  print('n1 = $n1, n2 = $n2');
-
-  // swapping logic
-
-  temp = n1;
-  n1 = n2;
-  n2 = temp;
-
-  print('After Swapping');
-  print('n1 = $n1, n2 = $n2');
+  print('Bye');
 
 }
 
