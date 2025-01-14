@@ -14,7 +14,7 @@ void main() {
 
   String num1, num2;
 
-  int n1, n2, result;
+  int n1, n2, temp;
 
   stdout.write('Enter first number : ');
   num1 = stdin.readLineSync()!;
@@ -25,8 +25,18 @@ void main() {
   n1 = int.parse(num1);
   n2 = int.parse(num2);
 
-  result = n1 + n2;
-  print(result);
+  print('Before Swapping');
+  print('n1 = $n1, n2 = $n2');
+
+  // swapping logic
+
+  temp = n1;
+  n1 = n2;
+  n2 = temp;
+
+  print('After Swapping');
+  print('n1 = $n1, n2 = $n2');
+
 }
 
 

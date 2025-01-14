@@ -94,6 +94,21 @@ Sum : 11
 Assignment 1:
 Enter a number and find its cube.
 
+Assignment 2:
+User will input temperature in Centigrade and you convert it to Fahrenheit
+
+Assignment 3:
+User will input temperature in Fahrenheit and you convert it to Centigrade.
+
+Assignment 4:
+a = 10
+b = 5
+
+a = 5
+b = 10
+
+
+
 
 
 
