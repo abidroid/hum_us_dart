@@ -12,27 +12,18 @@ import 'dart:io';
 
 void main() {
 
-  String number;
-  int num;
+  String? age;
+  //age = '25'; // hard coded value
 
-  stdout.write("Enter a number less than ten : ");
-  number = stdin.readLineSync()!;
-  num = int.parse( number );
+  stdout.write("Enter your age: ");
+  age = stdin.readLineSync();
 
-  if( num < 10 )
-  {
-    print('Shaabaash');
-    print('Good');
-    print('Excellent');
-  }
-  else
-  {
-    print('Very Bad');
-    print('Bad');
-    print('Poor');
-  }
+  int currentAge = int.parse(age!);
 
-  print('Bye');
+  int ageAfter10Years = currentAge + 10;
+
+  print('After 10 years you will be $ageAfter10Years years old');
+
 
 }
 
